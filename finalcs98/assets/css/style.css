@@ -1,0 +1,197 @@
+body {
+	background-color: #E0E0E0;
+	margin: 0px 0px 0px 0px;
+	/*CCFFF*/
+}
+
+#navbar {
+	display: inline;
+	position: fixed;
+	margin-top: 0%;
+	margin-left: 0%;
+	padding: 12px 0px 12px 0px;
+	width: 100%;
+	background-color: #989898;
+
+
+}
+
+.lessonbox {
+	width: 200px;
+	height: 250px;
+	list-style: none;
+	text-align: center;
+	border-radius: 25px;
+	background: #989898;
+	display: none;
+}
+
+#navbar .box:hover {
+	background-color: #E0E0E0;
+	-webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* above is good */
+
+#sidebar {
+	margin-left: -80px;
+	text-align: left;
+	position: fixed;
+	padding-left: 80px;
+	display: none;
+	margin-top: 42px;
+
+}
+
+#title {
+	font-size: 5em;
+	font-weight: bold;
+	margin: 0px 0px 30px 0px;
+	padding-top: 8%;
+	text-align: center;
+}
+
+#tab {
+	background-color: #989898;
+	width: 30px;
+	height: 70px;
+	border-radius: 0px 5px 5px 0px;
+	text-align: center;
+	clear: both;
+	font-size: 18px;
+	color: white;
+	margin-left: 0px;
+	margin-top: -6%;
+}
+
+#title2 {
+	font-size: 5em;
+	font-weight: bold;
+	margin: 0px 100px 30px 70px;
+	padding-top: 8%;
+	text-align: center;
+}
+
+#containers {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+	display: block;
+}
+
+#horizontal-containers {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+	display: block;
+}
+
+#title3 {
+	font-size: 5em;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 8%;
+	text-align: center;
+	width: 100%;
+}
+
+#pg3-containers {
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin: 1%;
+}
+
+#contenedor {
+	background-color: #989898;
+	width: 40%;
+	height: 300px;
+	border-radius: 25px;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	margin: 2%;
+}
+
+.first-container-text {
+	color: black;
+	padding: 12px 12px 0px 12px;
+	max-height: 600px;
+	font-size: 18px;
+	margin: 0px auto;
+}
+
+
+.container {
+	background-color: #989898;
+	width: 25%;
+	height: 600px;
+	border-radius: 25px;
+	text-align: center;
+	padding-top: 2%;
+	float: left;
+	font-size: 36px;
+	color: white;
+	margin: 2%;
+	margin-left: 6%;
+	margin-right: 0%;
+}
+
+.Hcontainer {
+	background-color: #989898;
+	width: 80%;
+	height: 300px;
+	border-radius: 25px;
+	text-align: center;
+	padding-top: 2%;
+	font-size: 36px;
+	color: white;
+	margin: 2%;
+	margin-bottom: 6%;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.video-of-the-week {
+	position: relative;
+	z-index: 100;
+	float: left;
+}
+
+
+
+.box {
+	padding-left: 9%;
+	color: white;
+	height: 30px;
+	padding: 12px 5.2% 12px 6%;
+	text-align: center;
+	display: inline;
+}
+
+#lessons-dropdown{
+	position: absolute;
+	margin-top: 42px;
+	margin-left: 400px;
+	height: 100px;
+	width: 80px;
+	background-color: #989898;
+	display: none;
+	text-align: center;
+}
+
+#lessons-list{
+	list-style-type: none;
+	text-align: center;
+	padding-left: 0px;
+}
+
+#lessons-list li{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+/*.box:hover; {
+	-webkit-transform:scale(1.25);
+}*/
+/*display: block;*/
