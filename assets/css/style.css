@@ -16,6 +16,11 @@ body {
 
 }
 
+.video-subheading {
+	text-align: center;
+	font-size: 18px;
+}
+
 .lessonbox {
 	width: 200px;
 	height: 250px;
