@@ -18,7 +18,7 @@ $(document).ready(function(){
 		$("#lessons-dropdown").slideUp("slow", function(){
 		});
 	});
-//grumble grumble
+//grumble
 
 //css()
 	$("#containers .container:nth-child(2)").mouseenter(function(){
@@ -29,7 +29,3 @@ $(document).ready(function(){
 
 
 });
-
-// $("#navbar .box:nth-child(3)").click(function() {
-// 	$(this).find("#lessonbox").fadeToggle(700);
-// })

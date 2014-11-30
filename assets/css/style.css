@@ -72,12 +72,38 @@ body {
 	text-align: center;
 }
 
+#title4 {
+	font-size: 5em;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 8%;
+	text-align: center;
+}
+
+#pg4-containers {
+	width: 100%;
+	margin: 0% 5% 2% 5%;
+	border: 3%;
+}
+
+#row {
+	float: left;
+
+	border-radius: 25px;
+	text-align: center;
+	font-size: 36px;
+	color: white;
+	margin: 3% 3% 1% 4%;
+	opacity: 0.9;
+}
+
 #containers {
 	width: 100%;
 	margin: 0 auto;
 	clear: both;
 	display: block;
 }
+
 
 #horizontal-containers {
 	width: 100%;
@@ -121,6 +147,13 @@ body {
 	margin: 0px auto;
 }
 
+.second-container-text {
+	color: black;
+	padding: 12px 12px 0px 12px;
+	max-height: 600px;
+	font-size: 18px;
+	margin: 0px auto;
+}
 
 .container {
 	background-color: #989898;
@@ -158,21 +191,10 @@ body {
 	float: left;
 }
 
-
-
-.box {
-	padding-left: 9%;
-	color: white;
-	height: 30px;
-	padding: 12px 5.2% 12px 6%;
-	text-align: center;
-	display: inline;
-}
-
 #lessons-dropdown{
 	position: absolute;
 	margin-top: 42px;
-	margin-left: 400px;
+	margin-left: 28.7%;
 	height: 100px;
 	width: 80px;
 	background-color: #989898;
@@ -190,6 +212,20 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 
+}
+
+.box {
+	padding-left: 9%;
+	color: white;
+	height: 30px;
+	padding: 12px 5.2% 12px 6%;
+	text-align: center;
+	display: inline;
+}
+
+.subheading {
+	font-size: 18px;
+	text-align: center
 }
 /*.box:hover; {
 	-webkit-transform:scale(1.25);
